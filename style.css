@@ -21,9 +21,6 @@ body {
     justify-content: center;
 }
 
-.nav ul li {
-    margin-left: 10px;
-}
 
 .nav ul li a {
     text-decoration: none;
