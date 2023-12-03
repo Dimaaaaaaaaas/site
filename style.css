@@ -18,11 +18,14 @@ body {
     height: 50px;
     background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0px;
 }
 
 
-.nav ul li a {
+.nav div a {
     text-decoration: none;
     line-height: 20px;
     color: black;
@@ -30,11 +33,43 @@ body {
     display: inline;
 }
 
-.nav ul {
+.nav div {
+    display: inline;
+}
+
+.nav div {
     list-style-type: none;
 }
 
-.nav ul li a:hover {
+.nav div a:hover {
     background: red;
     color: white;
+}
+
+.main {
+
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.main div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.main div a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.main div a:hover {
+    color: blue;
 }
