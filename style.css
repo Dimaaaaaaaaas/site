@@ -18,7 +18,7 @@ body {
     height: 50px;
     background-color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     position: sticky;
     top: 0px;
@@ -35,6 +35,8 @@ body {
 
 .nav div {
     display: inline;
+    float: left;
+    margin-left: 10px;
 }
 
 .nav div {
