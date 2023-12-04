@@ -136,9 +136,9 @@ body {
 
 
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 480px) {
     .main {
-        width: 1080px;
+        width: 480px;
         margin-left: 0%;
         margin-right: 0%;
     }
