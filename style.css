@@ -144,7 +144,7 @@ body {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
     .main {
         width: 100px;
         margin-left: 0%;
