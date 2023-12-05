@@ -74,7 +74,7 @@ body {
 
 
 .main {
-
+    float: left;
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
@@ -175,7 +175,7 @@ body {
         width: 100%;
         margin-left: 0%;
         margin-right: 0%;
-        margin-top: 310px;
+        margin-top: 30px;
     }
 
     .aside {
