@@ -167,8 +167,8 @@ body {
 
 
 @media screen and (max-width: 1080px) {
-    .aside {
-        background-color: wheat;
+    .header {
+        height: 150px;
     }
 
     .main {
