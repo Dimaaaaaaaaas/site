@@ -108,7 +108,7 @@ body {
 
 .footer {
     width: 100%;
-    height: 80px;
+    height: 100%;
     background-color: #303b44;
     display: flex;
     justify-content: space-around;
@@ -186,7 +186,7 @@ body {
     }
 
     .footer {
-        height: 120px;
+        height: 100%;
     }
 }
 
