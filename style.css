@@ -48,6 +48,31 @@ body {
     color: white;
 }
 
+.aside {
+    float: left;
+    margin-right: -75%;
+    margin-top: 20px;
+    width: 20%;
+    height: 100%;
+    background-color: wheat;
+    position: sticky;
+    top: 50px;
+    color: black;
+}
+
+.aside a {
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.aside ol li a:hover {
+    color: #249bd7;
+
+}
+
+
 .main {
 
     width: 50%;
@@ -57,6 +82,11 @@ body {
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
+    background-color: white;
+}
+
+.main p {
+    background-color: white;
 }
 
 .main div {
