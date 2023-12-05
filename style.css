@@ -168,7 +168,7 @@ body {
 
 @media screen and (max-width: 1080px) {
     .header {
-        height: 280px;
+        height: 100%;
     }
 
     .main {
