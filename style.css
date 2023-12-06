@@ -191,6 +191,10 @@ body {
 
     }
 
+    #future div {
+        width: 100%;
+    }
+
     .aside {
         width: 100%;
         z-index: 0;
@@ -213,6 +217,10 @@ body {
         margin-left: 0%;
         margin-right: 0%;
 
+    }
+
+    #future div {
+        width: 100%;
     }
 
     .aside {
