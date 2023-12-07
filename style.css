@@ -88,6 +88,8 @@ body {
 
 .main p {
     background-color: white;
+    display: flex;
+
 }
 
 .main div {
